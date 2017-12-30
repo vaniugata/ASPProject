@@ -1,0 +1,127 @@
+﻿.logo {
+    position: relative;
+    display: inline-block;
+    padding-right: 400px;
+    z-index: 3;
+}
+
+a.logo:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+header, footer {
+    padding: 1em;
+    text-align: center;
+    height: 160px;
+    background-repeat: repeat-x;
+}
+
+footer {
+    background-image: url(../img/footer.png);
+    text-align: center;
+}
+
+logo-title {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    height: 160px;
+}
+
+.siteHeader {
+    background-image: url(../img/header.png);
+    background-repeat: repeat-x;
+    z-index: 3;
+}
+
+.siteTitle h1 {
+    background-color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    color: red;
+    border: 3px solid blue;
+    border-radius: 20px;
+    z-index: 2;
+    margin-left: 12%;
+    margin-top: 2%;
+    padding: 7px 30px;
+    width: 50%;
+}
+
+.sideNavi {
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    list-style-type: none;
+    text-align: center;
+}
+
+nav.sideNavi li {
+    background-image: url(../img/nav_default.svg);
+    background-repeat: no-repeat;
+    height: 35px;
+    list-style-type: none;
+    padding-top: 7px;
+    padding-right: 16px;
+}
+
+nav.sideNavi li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav.sideNavi li:hover {
+    background-image: url(../img/nav_hover.svg);
+    background-repeat: no-repeat;
+    height: 35px;
+    list-style-type: none;
+}
+
+nav.sideNavi li a:hover {
+    text-decoration: none;
+    color: #FF0000;
+}
+
+.contacts {
+    margin-left: 25%;
+}
+
+.contacts em {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+.contacts ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.contacts ul li {
+    float: left;
+}
+
+.subPageTitle {
+    color: red;
+    font-style: italic;
+}
+
+.subPageText {
+    background-color: lightgray;
+    border-radius: 20px;
+    overflow-y: scroll;
+    height: 300px;
+    width: 800px;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}

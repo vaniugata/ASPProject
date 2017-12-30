@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Index.master.cs" Inherits="Index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Хамалски услуги</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/master.css" type="text/css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div style="width: 75%; margin: auto;">
+        <header>
+            <div class="siteHeader">
+                <div class="siteTitle">
+                    <h1><i>Професионални хамалски услуги със собствен транспорт в София и страната</i></h1>
+                </div>
+                <figure class="logo">
+                    <a href="http://localhost:54237/Default.aspx" class="logo">
+                        <object type="image/svg+xml" data="img/logo_hamali_kolev.svg">
+                            Your browser doesn't support svg.
+                        </object>
+                    </a>
+                </figure>
+            </div>
+        </header>
+        <div class="contacts">
+            <ul>
+                <li>
+                    <h1><i class="fa fa-phone" aria-hidden="true"></i>GSM: 
+                          <em>0888 195 752</em>,
+                          <em>0898 887 853</em>
+                    </h1>
+                </li>
+                <li style="margin-left: 40px; margin-top: 10px;">
+                    <a href="http://www.hamali-kolev.blogspot.com" target="_blank" title="Посетете блога на Хамали Колев">
+                        <img src="img/blogger.png" alt="иконка на блогър" title="Посетете блога на Хамали Колев" border="0" width="50px" height="50px" />
+                    </a>
+                </li>
+                <li style="margin-top: 10px">
+                    <a href="https://www.facebook.com/pages/hamalikolev/107775359265513?fref=ts" target="_blank"
+                        title="Посетете страницата на хамали Колев във Фейсбук">
+                        <img src="img/facebook.png" alt="иконка на фейсбук" title="Посетете страницата на хамали Колев във Фейсбук" border="0" width="50px" height="50px" /></a>
+                </li>
+                <li style="margin-top: 10px">
+                    <a href="http://twitter.com/hamalikolev">
+                        <img src="img/twitter.png" title="Следвайте Хамали Колев в Туитър" border="0" height="50" width="50"></a>
+                </li>
+            </ul>
+        </div>
+        <div id="main-content">
+            <table>
+                <tr>
+                    <td style="width: 20%">
+                        <nav class="sideNavi">
+                            <ul>
+                                <li class="selected"><a href="http://localhost:54237/About.aspx" title="Професионални хамалски услуги в София и страната"
+                                    class="selected">ЗА НАС</a></li>
+                                <li><a href="http://localhost:54237/Advice.aspx" title="Полезни съвети свързани с преместване">СЪВЕТИ</a></li>
+                                <li><a href="http://localhost:54237/Clients.aspx" title="Клиенти хамалски услуги">НАШИ КЛИЕНТИ</a></li>
+                                <li><a href="http://localhost:54237/Pictures.aspx" title="Снимки хамалски услуги">СНИМКИ</a></li>
+                                <li><a href="http://localhost:54237/Prices.aspx" title="Цени хамалски услуги">ЦЕНИ И УСЛУГИ</a></li>
+                                <li><a href="http://localhost:54237/Packaging.aspx" title="Полезни съвети свързани с преместване">ОПАКОВАНЕ</a></li>
+                                <li><a href="http://localhost:54237/FAQ.aspx" title="Често задавани въпроси свързани с преместване">ЧЗВ</a></li>
+                                <li><a href="http://localhost:54237/Contacts.aspx" title="За контакт с Хамали Колев">ЗА КОНТАКТ</a></li>
+                            </ul>
+                        </nav>
+                    </td>
+                    <td style="width: 80%">
+                        <form id="form1" runat="server">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="subPageTitle">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                <!-- nested pages content -->
+                                            </asp:ContentPlaceHolder>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="subPageText">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                                <!-- nested pages content -->
+                                            </asp:ContentPlaceHolder>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="subPageImages">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder3" runat="server">
+                                                <!-- nested pages content -->
+                                            </asp:ContentPlaceHolder>
+                                        </div>
+                                    </td>
+
+                                </tr>
+                            </table>
+
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <footer>
+                <h3>Професионални хамалски услуги в София и страната</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

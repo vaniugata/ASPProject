@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="141"
+   height="35"
+   id="svg6542"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="Нов документ 6">
+  <defs
+     id="defs6544">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17745"
+       id="linearGradient4831"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.610001,0,0,0.610001,-1085.4121,74.778033)"
+       x1="-1846.9432"
+       y1="-102.23232"
+       x2="-1848.2578"
+       y2="-41.53125" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient17745">
+      <stop
+         style="stop-color:white;stop-opacity:1;"
+         offset="0"
+         id="stop17747" />
+      <stop
+         style="stop-color:white;stop-opacity:0;"
+         offset="1"
+         id="stop17749" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17745"
+       id="linearGradient4812"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.610001,0,0,0.610001,-1085.4121,29.306733)"
+       x1="-1846.9432"
+       y1="-102.23232"
+       x2="-1848.2578"
+       y2="-41.53125" />
+    <linearGradient
+       y2="-41.53125"
+       x2="-1848.2578"
+       y1="-102.23232"
+       x1="-1846.9432"
+       gradientTransform="matrix(0.610001,0,0,0.610001,-1085.4121,29.306733)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient6540"
+       xlink:href="#linearGradient17745"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient17745"
+       id="linearGradient6600"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.610001,0,0,0.610001,-1085.4121,29.306733)"
+       x1="-1846.9432"
+       y1="-102.23232"
+       x2="-1848.2578"
+       y2="-41.53125" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="81.022227"
+     inkscape:cy="33.021041"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     inkscape:window-x="1358"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6547">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1017.3622)">
+    <g
+       id="g6595"
+       transform="translate(-910.90506,848.29591)">
+      <g
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="F:\work_05_13\Niki_Kolev\h5bp-html5-boilerplate-v4.2.0-0-g0adda79\h5bp-html5-boilerplate-defe483\img\bg_nav_hamali_kolev.png"
+         transform="translate(3236.2516,193.77325)"
+         id="g4808">
+        <path
+           inkscape:export-ydpi="90.014015"
+           inkscape:export-xdpi="90.014015"
+           inkscape:export-filename="/home/joro/linux/joro/hamali/web_site/images/uslugi_gray.jpg"
+           sodipodi:nodetypes="ccccccccc"
+           id="path4790"
+           d="m -2309.2635,-24.155386 109.164,0 c 8.6759,0 15.6607,6.984696 15.6607,15.660753 l 0,2.587229 c 0,8.676058 -6.9848,15.660754 -15.6607,15.660754 l -109.164,0 c -8.676,0 -15.6607,-6.984696 -15.6607,-15.660754 l 0,-2.587229 c 0,-8.676057 6.9847,-15.660753 15.6607,-15.660753 z"
+           style="fill:#009;fill-opacity:1;stroke:none"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:url(#linearGradient6600);fill-opacity:1;stroke:none"
+           d="m -2265.7827,-24.239917 c -11.5502,0 -20.8353,9.304165 -20.8353,20.854399 l 0,7.358133 101.4617,0 0.445,-7.358133 c 2.2837,-8.522782 -0.2891,-17.212119 -10.8555,-20.244853 -2.8627,-0.821639 -6.2417,-0.609546 -10.444,-0.609546 l -59.7719,0 z"
+           id="path4800"
+           inkscape:export-filename="/home/joro/linux/joro/hamali/web_site/images/uslugi_gray.jpg"
+           inkscape:export-xdpi="90.014015"
+           inkscape:export-ydpi="90.014015"
+           sodipodi:nodetypes="cccccscc"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>
